@@ -40,6 +40,11 @@ TV: min-width: 1200px
     div#formulario p {
         margin: 15px 0px;
     }
+
+    div.campo input {
+        transform: translateY(-9.3px);
+        outline: none;
+    }
 }
 
 @media screen and (min-width: 992px) {
