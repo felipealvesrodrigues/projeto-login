@@ -6,6 +6,7 @@
 marrom: #7B5144
 marrom 2 (Mais claro): #998787
 back do site (Variação do marrom 2): #8d7777
+verde dos vidros: #4d7574
 */
 
 
@@ -37,10 +38,13 @@ section#login {
     overflow: hidden;
 
     background-color: white;
-    width: 320px;
-    height: 520px;
+    width: 340px;
+    height: 550px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.466);
+
+    transition: width .5s, height .5s;
+    transition-timing-function: ease;
 }
 
 section#login > div#imagem {
@@ -48,7 +52,7 @@ section#login > div#imagem {
     background: #8d7777 url(../imagens/pexels-david-underland-3523621.jpg) no-repeat;
     background-size: cover;
     background-position: center;
-    height: 200px;
+    height: 220px;
 }
 
 section#login > div#formulario {
