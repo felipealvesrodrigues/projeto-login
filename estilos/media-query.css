@@ -11,7 +11,7 @@ TV: min-width: 1200px
 
 @media screen and (min-width: 768px) {
     body {
-        background-image: linear-gradient(to top, #77bdbd , #8d7777 60%);
+        background-image: linear-gradient(to top, #5c9494 , #8d7777 60%);
     }
 
     section#login {
