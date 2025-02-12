@@ -46,7 +46,7 @@ TV: min-width: 1200px
     }    
     div.campo input {
         outline: none;
-        transform: translateY(-7px);
+        transform: translateY(-10px);
     }
 }
 
