@@ -41,9 +41,12 @@ TV: min-width: 1200px
         margin: 15px 0px;
     }
 
+    form > input[type=submit] {
+        display: block;
+    }    
     div.campo input {
-        transform: translateY(-9px);
         outline: none;
+        transform: translateY(-9px);
     }
 }
 
