@@ -70,8 +70,5 @@ TV: min-width: 1200px
         display: block;
     }   
 
-    div.campo input {
-        transform: translateY(-9px);
-    }
 
 } 
